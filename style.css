@@ -1,0 +1,27 @@
+body{
+    background-image: url('love-couple-hands-3840x2160-14351.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+}
+
+h1{
+    color:cadetblue;
+}
+
+ p{
+    color: brown;
+ }
+
+ .container{
+    text-align: left;
+    padding: 10px;
+    margin: 5px;
+    color: rgb(223, 255, 205);
+    
+ }
+
+ footer {
+    text-align: center;
+    padding: 0%;
+ }

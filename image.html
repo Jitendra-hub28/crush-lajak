@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-image: url('cup.webp');
+            background-size: cover;
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        .blink {
+                animation: blinker 1.5s linear infinite;
+                color: red;
+                font-family: sans-serif;
+            }
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+        
+            
+        p {
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .story-card {
+            background: rgba(0, 0, 0, 0.6);
+            border-radius: 15px;
+            padding: 30px;
+            margin-top: 60px;
+            animation: fadeIn 2s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container d-flex justify-content-center align-items-center min-vh-200">
+    <div class="story-card text-center">
+    <p style="color: darkred; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">
+        To all Vada Pav Batch & Sambar Batch...&#128518;<br>
+        Again I won't get a chance to tease you. That's why I'm teasing you one last time.<br>
+        I don't know to how to flirt, but I never miss a chance to roast one.&#128526;
+    </p>
+
+    <marquee class="blink" >
+        Ee Sala Cup Namdu
+    </marquee>
+
+    <audio controls autoplay>
+                <source src="rcb_anthem.mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+        </audio> <br>
+    </div>
+    </div>
+</body>
+</html>
